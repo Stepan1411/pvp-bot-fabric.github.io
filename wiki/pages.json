@@ -1,0 +1,147 @@
+{
+  "pages": [
+    {
+      "id": "home",
+      "icon": "🏠",
+      "file": "Home.md",
+      "translations": {
+        "en": "Home",
+        "ru": "Главная",
+        "zh": "主页",
+        "fr": "Accueil",
+        "es": "Inicio",
+        "de": "Startseite"
+      }
+    },
+    {
+      "id": "Commands",
+      "icon": "🎮",
+      "file": "Commands.md",
+      "translations": {
+        "en": "Commands",
+        "ru": "Команды",
+        "zh": "命令",
+        "fr": "Commandes",
+        "es": "Comandos",
+        "de": "Befehle"
+      }
+    },
+    {
+      "id": "Combat",
+      "icon": "⚔️",
+      "file": "Combat.md",
+      "translations": {
+        "en": "Combat System",
+        "ru": "Система боя",
+        "zh": "战斗系统",
+        "fr": "Système de combat",
+        "es": "Sistema de combate",
+        "de": "Kampfsystem"
+      }
+    },
+    {
+      "id": "Navigation",
+      "icon": "🧭",
+      "file": "Navigation.md",
+      "translations": {
+        "en": "Navigation",
+        "ru": "Навигация",
+        "zh": "导航",
+        "fr": "Navigation",
+        "es": "Navegación",
+        "de": "Navigation"
+      }
+    },
+    {
+      "id": "Paths",
+      "icon": "🛤️",
+      "file": "Paths.md",
+      "translations": {
+        "en": "Paths",
+        "ru": "Пути",
+        "zh": "路径",
+        "fr": "Chemins",
+        "es": "Rutas",
+        "de": "Pfade"
+      }
+    },
+    {
+      "id": "Factions",
+      "icon": "👥",
+      "file": "Factions.md",
+      "translations": {
+        "en": "Factions",
+        "ru": "Фракции",
+        "zh": "派系",
+        "fr": "Factions",
+        "es": "Facciónes",
+        "de": "Fraktionen"
+      }
+    },
+    {
+      "id": "Kits",
+      "icon": "🎒",
+      "file": "Kits.md",
+      "translations": {
+        "en": "Kits",
+        "ru": "Наборы",
+        "zh": "装备组",
+        "fr": "Kits",
+        "es": "Kits",
+        "de": "Kits"
+      }
+    },
+    {
+      "id": "Settings",
+      "icon": "⚙️",
+      "file": "Settings.md",
+      "translations": {
+        "en": "Settings",
+        "ru": "Настройки",
+        "zh": "设置",
+        "fr": "Paramètres",
+        "es": "Ajustes",
+        "de": "Einstellungen"
+      }
+    },
+    {
+      "id": "ExplosiveCombat",
+      "icon": "💥",
+      "file": "ExplosiveCombat.md",
+      "translations": {
+        "en": "Explosive Combat",
+        "ru": "Взрывной бой",
+        "zh": "爆炸战斗",
+        "fr": "Combat explosif",
+        "es": "Combate explosivo",
+        "de": "Explosiver Kampf"
+      }
+    },
+    {
+      "id": "Movement",
+      "icon": "🚶",
+      "file": "Movement.md",
+      "translations": {
+        "en": "Movement",
+        "ru": "Передвижение",
+        "zh": "移动",
+        "fr": "Mouvement",
+        "es": "Movimiento",
+        "de": "Bewegung"
+      }
+    },
+    {
+      "id": "ElytraMace",
+      "icon": "🪽",
+      "file": "ElytraMace.md",
+      "translations": {
+        "en": "Elytra Mace",
+        "ru": "Elytra Mace",
+        "zh": "鞘翅锤",
+        "fr": "Elytra Mace",
+        "es": "Elytra Mace",
+        "de": "Elytra Mace"
+      }
+    }
+  ]
+}

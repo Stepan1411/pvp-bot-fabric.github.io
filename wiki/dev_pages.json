@@ -1,0 +1,147 @@
+{
+  "pages": [
+    {
+      "id": "Home",
+      "icon": "🏠",
+      "file": "Home.md",
+      "translations": {
+        "en": "Home",
+        "ru": "Главная",
+        "zh": "主页",
+        "fr": "Accueil",
+        "es": "Inicio",
+        "de": "Startseite"
+      }
+    },
+    {
+      "id": "QuickStart",
+      "icon": "🚀",
+      "file": "QuickStart.md",
+      "translations": {
+        "en": "Quick Start",
+        "ru": "Быстрый старт",
+        "zh": "快速开始",
+        "fr": "Démarrage rapide",
+        "es": "Inicio rápido",
+        "de": "Schnellstart"
+      }
+    },
+    {
+      "id": "APIStructure",
+      "icon": "🏗️",
+      "file": "APIStructure.md",
+      "translations": {
+        "en": "API Structure",
+        "ru": "Структура API",
+        "zh": "API结构",
+        "fr": "Structure API",
+        "es": "Estructura API",
+        "de": "API-Struktur"
+      }
+    },
+    {
+      "id": "APIReference",
+      "icon": "📖",
+      "file": "APIReference.md",
+      "translations": {
+        "en": "API Reference",
+        "ru": "Справочник API",
+        "zh": "API参考",
+        "fr": "Référence API",
+        "es": "Referencia API",
+        "de": "API-Referenz"
+      }
+    },
+    {
+      "id": "Events",
+      "icon": "⚡",
+      "file": "Events.md",
+      "translations": {
+        "en": "Events",
+        "ru": "События",
+        "zh": "事件",
+        "fr": "Événements",
+        "es": "Eventos",
+        "de": "Ereignisse"
+      }
+    },
+    {
+      "id": "CombatStrategies",
+      "icon": "⚔️",
+      "file": "CombatStrategies.md",
+      "translations": {
+        "en": "Combat Strategies",
+        "ru": "Стратегии боя",
+        "zh": "战斗策略",
+        "fr": "Stratégies de combat",
+        "es": "Estrategias de combate",
+        "de": "Kampfstrategien"
+      }
+    },
+    {
+      "id": "Examples",
+      "icon": "💡",
+      "file": "Examples.md",
+      "translations": {
+        "en": "Examples",
+        "ru": "Примеры",
+        "zh": "示例",
+        "fr": "Exemples",
+        "es": "Ejemplos",
+        "de": "Beispiele"
+      }
+    },
+    {
+      "id": "Pathfinding",
+      "icon": "🗺️",
+      "file": "Pathfinding.md",
+      "translations": {
+        "en": "Pathfinding",
+        "ru": "Поиск пути",
+        "zh": "寻路",
+        "fr": "Recherche de chemin",
+        "es": "Búsqueda de rutas",
+        "de": "Pfadfindung"
+      }
+    },
+    {
+      "id": "ModIntegration",
+      "icon": "🔌",
+      "file": "ModIntegration.md",
+      "translations": {
+        "en": "Mod Integration",
+        "ru": "Интеграция модов",
+        "zh": "模组集成",
+        "fr": "Intégration de mods",
+        "es": "Integración de mods",
+        "de": "Mod-Integration"
+      }
+    },
+    {
+      "id": "BestPractices",
+      "icon": "✨",
+      "file": "BestPractices.md",
+      "translations": {
+        "en": "Best Practices",
+        "ru": "Лучшие практики",
+        "zh": "最佳实践",
+        "fr": "Meilleures pratiques",
+        "es": "Mejores prácticas",
+        "de": "Bewährte Praktiken"
+      }
+    },
+    {
+      "id": "FAQ",
+      "icon": "❓",
+      "file": "FAQ.md",
+      "translations": {
+        "en": "FAQ",
+        "ru": "FAQ",
+        "zh": "FAQ",
+        "fr": "FAQ",
+        "es": "FAQ",
+        "de": "FAQ"
+      }
+    }
+  ]
+}

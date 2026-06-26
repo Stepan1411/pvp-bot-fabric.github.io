@@ -1,0 +1,14 @@
+{
+  "name": "pvp-bot-docs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/fetch-wiki.mjs && vitepress dev --host 0.0.0.0",
+    "fetch": "node scripts/fetch-wiki.mjs",
+    "build": "node scripts/fetch-wiki.mjs && vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.0"
+  }
+}
