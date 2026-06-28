@@ -33,7 +33,7 @@ const devPages = loadPages('dev_pages.json')
 const navEn = [
   { text: 'Home', link: '/' },
   { text: 'Guide', link: '/guide/' },
-  { text: 'Developers', link: '/dev/' },
+  { text: 'Developers', link: '' },
 ]
 
 const navRu = [

@@ -37,18 +37,23 @@ function fixHtmlTags(content) {
   return result.join('\n')
 }
 
-async function download(url, dest) {
+async function download(url, dest, fallbackSrc) {
   let content
   try {
     content = await fetchText(url)
   } catch {
-    try {
-      content = readFileSync(dest, 'utf-8')
-      console.log(`  ⚡ ${url.split('/').pop()} (cached)`)
-      return
-    } catch {
-      throw new Error(`Failed to fetch ${url}: missing from remote and no cached copy`)
+    for (const src of [dest, fallbackSrc]) {
+      if (src) {
+        try {
+          content = readFileSync(src, 'utf-8')
+          console.log(`  ⚡ ${url.split('/').pop()} (cached)`)
+          mkdirSync(dirname(dest), { recursive: true })
+          writeFileSync(dest, content, 'utf-8')
+          return
+        } catch { /* try next fallback */ }
+      }
     }
+    throw new Error(`Failed to fetch ${url}: missing from remote and no cached copy`)
   }
   content = fixHtmlTags(content)
   mkdirSync(dirname(dest), { recursive: true })
@@ -85,8 +90,9 @@ async function main() {
     await download(`${mdBase}/player/${p.file}`, resolve(cache, 'player', p.file))
   }
 
+  const localDevDir = resolve(root, 'pvp-bot-fabric', 'wiki', 'developer')
   for (const p of devPagesJson.pages) {
-    await download(`${mdBase}/developer/${p.file}`, resolve(cache, 'developer', p.file))
+    await download(`${mdBase}/developer/${p.file}`, resolve(cache, 'developer', p.file), resolve(localDevDir, p.file))
   }
 
   console.log(`Done — ${pagesJson.pages.length + devPagesJson.pages.length + 2} files`)
